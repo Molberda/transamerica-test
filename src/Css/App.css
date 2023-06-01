@@ -7,3 +7,11 @@
   text-decoration: none;
   border: 2px dotted red;
 }
+
+figure{
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
