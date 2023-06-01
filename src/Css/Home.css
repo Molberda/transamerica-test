@@ -1,0 +1,46 @@
+#landing {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  padding: 5em 0 0 0;
+}
+
+.row {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__title {
+  text-align: center;
+}
+
+.info__img--wrapper{
+    width: 8em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.info__img{
+    object-fit: cover;
+    scale: 2.3;
+    transform: translateY(2.2em);
+}
+
+.info__list{
+    display: flex;
+}
+
+.info__list--item > button > svg {
+  color: white;
+}

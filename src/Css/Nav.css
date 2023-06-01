@@ -7,8 +7,17 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1em;
+  background-color: #283236;
 }
 
 .nav__logo--wrapper {
   width: 3em;
+}
+
+.nav__logo--wrapper > img {
+    filter: invert(1);
+}
+
+nav > button > svg{
+    color: white;
 }
