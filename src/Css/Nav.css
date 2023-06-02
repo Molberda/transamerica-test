@@ -20,4 +20,5 @@ nav {
 
 nav > button > svg{
     color: white;
+    scale: 1.2;
 }

@@ -18,6 +18,17 @@ p {
   background-color: #374449;
 }
 
+.container {
+  height: 100%;
+  padding: 5em 0 0 0;
+}
+
+.row {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
 figure {
   display: flex;
   overflow: hidden;
