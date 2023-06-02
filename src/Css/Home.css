@@ -34,3 +34,18 @@
 .info__list--item > button > svg {
   color: white;
 }
+
+.about__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__text{
+  text-align: center;
+}
+
+.about__container > svg {
+  color: white;
+}
