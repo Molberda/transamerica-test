@@ -3,12 +3,19 @@
   width: 100vw;
 }
 
+.landing__row{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5em;
+}
+
 .info__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: .5em;
+  gap: 1em;
 }
 
 .info__title {
@@ -19,12 +26,14 @@
     width: 8em;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 1.5em;
 }
 
 .info__img{
     object-fit: cover;
     scale: 2.3;
-    transform: translateY(2.2em);
+    transform: translateY(2.15em);
 }
 
 .info__list{
@@ -40,10 +49,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
 }
 
 .about__text{
   text-align: center;
+  line-height: 2em;
 }
 
 .about__container > svg {
