@@ -8,7 +8,7 @@ const Product = () => {
           <div className="product__organizer">
             <div className="product">
               <figure className="product__wrapper">
-                <img src="" alt="" className="product__img" />
+                <img src="https://stpeteedc.com/wp-content/uploads/2018/03/transamerica.png" alt="" className="product__img" />
               </figure>
             </div>
           </div>
