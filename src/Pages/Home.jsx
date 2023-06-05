@@ -1,13 +1,13 @@
 import React from 'react';
 import Landing from '../Sections/Landing';
 import '../Css/Home.css'
-import Product from '../Sections/Product';
+import Products from '../Sections/Products';
 
-const Home = () => {
+const Home = ({ products }) => {
     return (
         <main id="home">
             <Landing/>
-            <Product/>
+            <Products products={products}/>
         </main>
     );
 }
