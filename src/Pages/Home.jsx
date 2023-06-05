@@ -1,12 +1,11 @@
 import React from 'react';
-import InfoContainer from '../Components/InfoContainer';
+import Landing from '../Sections/Landing';
 import '../Css/Home.css'
-import AboutContainer from '../Components/AboutContainer';
 
 const Home = () => {
     return (
         <main id="home">
-        
+            <Landing/>
         </main>
     );
 }
