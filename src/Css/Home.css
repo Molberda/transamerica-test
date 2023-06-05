@@ -75,3 +75,21 @@
     transform: translateY(1em);
   }
 }
+
+/* PRODUCTS SECTION */
+
+.product__wrapper{
+  position: relative;
+}
+
+.product__info--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #242424b4;
+}
