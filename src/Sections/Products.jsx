@@ -7,7 +7,11 @@ const Products = ({ products }) => {
       <div className="container product__container">
         <div className="row product__row">
           <div className="product__organizer">
-            <ProductMap products={products}/>
+            <div className="product">
+              {products.map((item) => (
+                <ProductMap products={products} item={item} key={item.id} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
