@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import Nav from './Components/Nav';
 import { products } from './Products.js'
 import ProductList from './Pages/ProductList';
+import ProductPage from './Pages/ProductPage';
 
 function App() {
   return (

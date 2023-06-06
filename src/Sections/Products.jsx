@@ -12,7 +12,7 @@ const Products = ({ products }) => {
             {products.map((item) => (
               <ProductMap products={products} item={item} key={item.id} />
             ))}
-            <Link>
+            <Link to='/productlist'>
               <Button>
                 <h3>View More</h3>
               </Button>
