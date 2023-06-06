@@ -83,6 +83,10 @@
 
 /* PRODUCTS SECTION */
 
+.product__row{
+  padding-top: 0;
+}
+
 .product__organizer{
   display: flex;
   flex-direction: column;

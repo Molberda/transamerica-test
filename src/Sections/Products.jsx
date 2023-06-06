@@ -1,5 +1,7 @@
 import React from "react";
 import ProductMap from "../Components/ProductMap";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const Products = ({ products }) => {
   return (
@@ -10,6 +12,11 @@ const Products = ({ products }) => {
             {products.map((item) => (
               <ProductMap products={products} item={item} key={item.id} />
             ))}
+            <Link>
+              <Button>
+                <h3>View All Products</h3>
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
