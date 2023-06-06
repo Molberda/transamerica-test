@@ -80,6 +80,11 @@
 
 .product__wrapper{
   position: relative;
+  border-radius: 1em;
+}
+
+.product__wrapper:hover .product__info--container{
+opacity: 1;
 }
 
 .product__info--container{
@@ -92,4 +97,6 @@
   bottom: 0;
   top: 0;
   background-color: #242424b4;
+  opacity: 0;
+  transition: all 300ms ease;
 }
