@@ -7,11 +7,9 @@ const Products = ({ products }) => {
       <div className="container product__container">
         <div className="row product__row">
           <div className="product__organizer">
-            <div className="product">
-              {products.map((item) => (
-                <ProductMap products={products} item={item} key={item.id} />
-              ))}
-            </div>
+            {products.map((item) => (
+              <ProductMap products={products} item={item} key={item.id} />
+            ))}
           </div>
         </div>
       </div>
