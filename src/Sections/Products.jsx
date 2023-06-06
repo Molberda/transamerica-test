@@ -14,7 +14,7 @@ const Products = ({ products }) => {
             ))}
             <Link>
               <Button>
-                <h3>View All Products</h3>
+                <h3>View More</h3>
               </Button>
             </Link>
           </div>
