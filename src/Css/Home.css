@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 5em;
+  padding: 3em 1em;
 }
 
 .info__container {
