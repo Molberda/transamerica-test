@@ -3,7 +3,7 @@ import React from "react";
 
 const Rating = ({ rating }) => {
   return (
-    <div>
+    <div className="rating">
       {new Array(Math.floor(rating)).fill(0).map((_, index) => (
         <Star key={index} />
       ))}

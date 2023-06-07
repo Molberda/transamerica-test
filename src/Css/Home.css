@@ -130,3 +130,15 @@
 .product__organizer > a > button:hover {
   background-color: #b11f3a;
 }
+
+/* REVIEWS SECTION */
+
+.review{
+  background-color: #2f3a3e;
+  padding: 1em;
+  border-radius: .5em;
+}
+
+.rating > svg{
+  color: goldenrod;
+}
