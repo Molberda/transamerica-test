@@ -1,8 +1,9 @@
 import React from 'react';
 
-const ReviewMap = () => {
+const ReviewMap = ({ item }) => {
     return (
-        <div>
+        <div className="review">
+            <h3 className="review__name">{item.name}</h3>
             
         </div>
     );
