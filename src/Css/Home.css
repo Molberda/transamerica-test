@@ -133,6 +133,12 @@
 
 /* REVIEWS SECTION */
 
+.reviews__organizer{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 .review{
   display: flex;
   justify-content: space-between;
@@ -149,6 +155,10 @@
 .rating > svg{
   color: goldenrod;
   width: .8em;
+}
+
+.review__description{
+  font-size: .9em;
 }
 
 .review__img--wrapper{
