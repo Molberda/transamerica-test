@@ -1,3 +1,7 @@
+footer{
+    background-color: #283236;
+}
+
 .footer__list {
   display: flex;
   justify-content: space-evenly;

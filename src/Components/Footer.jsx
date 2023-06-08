@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../Assets/wfg-logo.webp'
 import '../Css/Footer.css'
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="container footer__container">
         <div className="row footer__row">
           <figure className="footer__logo--wrapper">
-            <img src="" alt="" className="footer__logo" />
+            <img src={logo} alt="" className="footer__logo" />
           </figure>
           <ul className="footer__list">
             <li className="footer__list--item">
