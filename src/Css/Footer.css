@@ -1,5 +1,30 @@
-.footer__list{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1em;
+.footer__list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.footer__list--item {
+  position: relative;
+}
+
+.footer__list--item > a {
+  font-size: 0.8em;
+  color: white;
+}
+
+.hover__effect {
+  background-color: white;
+  border-radius: 1em;
+  position: absolute;
+  height: 0.2em;
+  right: 0;
+  width: 0%;
+  bottom: -2px;
+  transition: all 300ms ease;
+}
+
+.footer__list--item:hover .hover__effect {
+    width: 100%;
+    left: 0;
 }
