@@ -135,15 +135,22 @@
 
 .review{
   display: flex;
+  justify-content: space-between;
   background-color: #2f3a3e;
   padding: 1em;
   border-radius: .5em;
 }
 
+.review__name,
+.review__description{
+  margin-left: .2em;
+}
+
 .rating > svg{
   color: goldenrod;
+  width: .8em;
 }
 
 .review__img--wrapper{
-  width: 3em;
+  width: 4em;
 }
