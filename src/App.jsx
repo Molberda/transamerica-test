@@ -1,12 +1,12 @@
 import {  BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './Components/Nav';
+import '../src/Css/App.css';
 import Home from './Pages/Home';
 import { products } from './Products.js'
 import { reviews } from './Reviews.js'
 import ProductList from './Pages/ProductList';
 import ProductPage from './Pages/ProductPage';
 import Footer from './Components/Footer';
-import '../src/Css/App.css';
 
 function App() {
   return (

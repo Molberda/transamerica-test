@@ -2,6 +2,21 @@ footer{
     background-color: #283236;
 }
 
+.footer__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo--wrapper{
+    width: 3em;
+    margin-bottom: .5em;
+}
+
+.footer__logo{
+    filter: invert(1);
+}
+
 .footer__list {
   display: flex;
   justify-content: space-evenly;

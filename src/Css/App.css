@@ -19,6 +19,10 @@ p {
   background-color: #374449;
 }
 
+section{
+  width: 100%;
+}
+
 .container {
   padding: 1em 0;
   height: 100%;
