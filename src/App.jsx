@@ -7,11 +7,13 @@ import { reviews } from './Reviews.js'
 import ProductList from './Pages/ProductList';
 import ProductPage from './Pages/ProductPage';
 import Footer from './Components/Footer';
+import Burger from './Components/Burger';
 
 function App() {
   return (
     <Router>
       <Nav/>
+      <Burger/>
       <Routes>
         <Route path='/' element={<Home products={products} reviews={reviews}/>}/>
         <Route path='/productlist' element={<ProductList products={products}/>}/>
