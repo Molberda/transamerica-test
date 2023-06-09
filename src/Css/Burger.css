@@ -2,15 +2,16 @@
   margin-top: 5em;
   height: 4em;
   background-color: #283236;
-  border-top: 2px solid #d92546;
+  border-top: 1px solid #d92546;
 }
 
 .burger__container {
-  padding: 0.2em;
+  padding: 0;
 }
 
 .burger__row {
   max-width: 100%;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,11 +29,12 @@
   display: flex;
   align-items: center;
   height: 100%;
+  border: #d92546 1px solid;
 }
 
 .burger__list--item > a {
   color: white;
-  padding: 0 1.3em;
+  padding: 0 1.5em;
 }
 
 .burger__list--item > a > h2{
