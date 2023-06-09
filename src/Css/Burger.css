@@ -31,5 +31,10 @@
 }
 
 .burger__list--item > a {
-  color: white;padding: 0 1em;
+  color: white;
+  padding: 0 1.3em;
+}
+
+.burger__list--item > a > h2{
+  font-size: 1.3em;
 }
