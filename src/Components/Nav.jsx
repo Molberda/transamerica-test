@@ -5,12 +5,16 @@ import logo from '../Assets/wfg-logo.webp'
 import '../Css/Nav.css'
 
 const Nav = () => {
+
+    function openMenu(){
+        document.querySelector('body').classList.toggle('menuOpen')
+    }
     return (
         <nav>
             <figure className='nav__logo--wrapper'>
                 <img src={logo} alt="" />
             </figure>
-            <IconButton>
+            <IconButton onClick={openMenu}>
                 <Menu/>
             </IconButton>
         </nav>
