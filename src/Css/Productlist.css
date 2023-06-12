@@ -1,3 +1,31 @@
 #productlist{
+    min-height: 100vh;
+}
+
+.productlist__container{
     padding-top: 5em;
+}
+
+.productlist__row{
+    padding: 3em 1em;
+}
+
+.productlist__title{
+    text-align: center;
+}
+
+.productlist__organizer{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.productlist__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6em 1em;
+    border-radius: .5em;
+    background-color: #2f3a3e;
 }
