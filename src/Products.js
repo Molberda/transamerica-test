@@ -19,4 +19,40 @@ export const products = [
     info: "description test",
     img: transamerica,
   },
+  {
+    id: 4,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
+  {
+    id: 5,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
+  {
+    id: 6,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
+  {
+    id: 7,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
+  {
+    id: 8,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
+  {
+    id: 9,
+    name: "name test",
+    info: "description test",
+    img: transamerica,
+  },
 ];

@@ -10,7 +10,7 @@ const Products = ({ products }) => {
         <div className="row product__row">
           <h1 className="section__title products__title">Our Best Sellers!</h1>
           <div className="product__organizer">
-            {products.map((item) => (
+            {products.slice(0,3).map((item) => (
               <ProductMap products={products} item={item} key={item.id} />
             ))}
             <Link to='/productlist'>
