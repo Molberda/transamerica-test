@@ -2,7 +2,7 @@
   position: fixed;
   height: 4em;
   background-color: #283236;
-  border-top: 1px solid #d92546;
+  border: 1px solid #d92546;
   box-shadow: 0 0 2em ;
   transition: all 300ms;
   z-index: 99;
@@ -36,14 +36,13 @@
   display: flex;
   align-items: center;
   height: 100%;
-  border: #d92546 1px solid;
 }
 
-.burger__list--item > a {
+.burger__list--item > button {
   color: white;
   padding: 0 1.5em;
 }
 
-.burger__list--item > a > h2{
+.burger__list--item > button > h2{
   font-size: 1.3em;
 }
