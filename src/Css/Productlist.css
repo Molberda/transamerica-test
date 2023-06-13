@@ -29,3 +29,11 @@
     border-radius: .5em;
     background-color: #2f3a3e;
 }
+
+.productlist__name{
+    font-size: 1.3em;
+}
+
+.productlist__type{
+    font-size: .9em;
+}
