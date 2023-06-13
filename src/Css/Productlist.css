@@ -37,3 +37,7 @@
 .productlist__type{
     font-size: .9em;
 }
+
+.productlist__item > button > svg {
+    color: white;
+}
