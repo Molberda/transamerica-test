@@ -5,7 +5,7 @@ import AboutContainer from '../Components/AboutContainer';
 const Landing = () => {
     return (
         <section id="landing">
-            <div className="container landing__container">
+            <div className="container landing__container top__section">
                 <div className="row landing__row">
                     <InfoContainer/>
                     <AboutContainer/>

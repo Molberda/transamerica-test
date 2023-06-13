@@ -2,10 +2,6 @@
     min-height: 100vh;
 }
 
-.productlist__container{
-    padding-top: 5em;
-}
-
 .productlist__row{
     padding: 3em 1em;
 }

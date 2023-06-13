@@ -2,9 +2,6 @@
   height: 100vh;
 }
 
-.landing__container {
-  padding: 5em 0 0 0;
-}
 
 .landing__row {
   display: flex;

@@ -28,6 +28,10 @@ section{
   height: 100%;
 }
 
+.top__section {
+  padding-top: 5em;
+}
+
 .row {
   max-width: 90%;
   height: 100%;
