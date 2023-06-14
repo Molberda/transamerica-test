@@ -1,14 +1,21 @@
 import React from "react";
 import "../Css/Productlist.css";
 import ListMap from "../Components/ListMap";
+// import { useState } from "react";
 
 const ProductList = ({ products }) => {
+
+    // const [items, setItems] = useState(initialItems);
+    function filterItems(){
+        console.log('change')
+    }
+
   return (
     <section id="productlist">
       <div className="container productlist__container top__section">
         <div className="row productlist__row">
           <h1 className="productlist__title">All Our Products</h1>
-          <select id="filter">
+          <select id="filter" onChange={filterItems}>
             <option value="INSURANCE">Insurance</option>
             <option value="INVESTMENT">Investment</option>
           </select>
