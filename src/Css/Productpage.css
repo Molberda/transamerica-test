@@ -1,0 +1,7 @@
+#productpage{
+    min-height: 100vh;
+}
+
+.productpage__row{
+    padding: 3em 1em;
+}

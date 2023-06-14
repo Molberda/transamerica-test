@@ -3,14 +3,14 @@ import transamerica from "./Assets/transamerica.png";
 export const products = [
   {
     id: 1,
-    name: "name test",
+    name: "name test1",
     type: 'insurance',
     info: "description test",
     img: transamerica,
   },
   {
     id: 2,
-    name: "name test",
+    name: "name test2",
     type: 'insurance',
     info: "description test",
     img: transamerica,
