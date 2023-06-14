@@ -1,11 +1,11 @@
 import React from "react";
 import "../Css/Productlist.css";
 import ListMap from "../Components/ListMap";
-// import { useState } from "react";
+import { useState } from "react";
 
-const ProductList = ({ products }) => {
+const ProductList = ({ products: initialproducts }) => {
 
-    // const [items, setItems] = useState(initialItems);
+    const [ products, setProducts ] = useState(initialproducts);
     function filterItems(){
         console.log('change')
     }
