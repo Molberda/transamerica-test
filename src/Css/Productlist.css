@@ -10,8 +10,21 @@
     text-align: center;
 }
 
+#filter{
+    margin-top: 1.5em;
+    padding: .25em;
+    border-radius: .5em;
+    border: none;
+    background-color: #2f3a3e;
+    color: white;
+}
+
+#filter:focus-visible{
+    outline: none;
+}
+
 .productlist__organizer{
-    margin-top: 2em;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;

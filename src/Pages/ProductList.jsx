@@ -4,10 +4,12 @@ import ListMap from "../Components/ListMap";
 import { useState } from "react";
 
 const ProductList = ({ products: initialproducts }) => {
-
   const [products, setProducts] = useState(initialproducts);
   const insurance = initialproducts.filter((item) => item.type === "insurance");
-  const investment = initialproducts.filter((item) => item.type === 'investment')
+  const investment = initialproducts.filter(
+    (item) => item.type === "investment"
+  );
+  const annuity = initialproducts.filter((item) => item.type === "annuity");
 
   function filterItems(filter) {
     if (filter === "INSURANCE") {
@@ -16,6 +18,12 @@ const ProductList = ({ products: initialproducts }) => {
     if (filter === "INVESTMENT") {
       setProducts(investment);
     }
+    if (filter === "ANNUITY") {
+      setProducts(annuity);
+    }
+    if (filter === "ALL") {
+      setProducts(initialproducts);
+    }
   }
 
   return (
@@ -23,10 +31,15 @@ const ProductList = ({ products: initialproducts }) => {
       <div className="container productlist__container top__section">
         <div className="row productlist__row">
           <h1 className="productlist__title">All Our Products</h1>
-          <select id="filter" defaultValue='DEFAULT' onChange={(e) => filterItems(e.target.value)}>
-            <option value="DEFAULT">Filter</option>
+          <select
+            id="filter"
+            defaultValue="ALL"
+            onChange={(e) => filterItems(e.target.value)}
+          >
+            <option value="ALL">All</option>
             <option value="INSURANCE">Insurance</option>
             <option value="INVESTMENT">Investment</option>
+            <option value="ANNUITY">Annuity</option>
           </select>
           <div className="productlist__organizer">
             {products.map((item) => (
