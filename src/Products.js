@@ -17,8 +17,8 @@ export const products = [
   },
   {
     id: 3,
-    name: "name test",
-    type: 'insurance',
+    name: "name test3",
+    type: 'annuity',
     info: "description test",
     img: transamerica,
   },
