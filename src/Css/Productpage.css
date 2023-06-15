@@ -20,3 +20,11 @@
 .productpage__subtitle{
     color: white;
 }
+
+.productpage__icon--list{
+    display: flex;
+}
+
+.productpage__icon > button > svg {
+    color: white;
+}

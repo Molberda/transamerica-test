@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import "../Css/Productpage.css";
 import { useParams } from "react-router-dom";
+import { IconButton } from "@mui/material";
+import { Mail, PictureAsPdf } from "@mui/icons-material";
 
 const ProductPage = ({ products }) => {
+    
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
   }, []);
@@ -18,6 +21,18 @@ const ProductPage = ({ products }) => {
           <div className="productpage__organizer">
             <h4 className="productpage__subtitle">{product.type}</h4>
             <p className="productpage__text">{product.info}</p>
+            <ul className="productpage__icon--list">
+              <li className="productpage__icon">
+                <IconButton>
+                  <PictureAsPdf />
+                </IconButton>
+              </li>
+              <li className="productpage__icon">
+                <IconButton>
+                  <Mail/>
+                </IconButton>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
