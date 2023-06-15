@@ -28,14 +28,14 @@ const Burger = () => {
               </Button>
             </li>
             <li className="burger__list--item">
-              <Button>
+              <Button onClick={close}>
                 <Link to="/">
                   <h2>Home</h2>
                 </Link>
               </Button>
             </li>
             <li className="burger__list--item">
-              <Button>
+              <Button onClick={close}>
                 <Link to="/">
                   <h2>Home</h2>
                 </Link>
