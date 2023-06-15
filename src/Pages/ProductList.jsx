@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Css/Productlist.css";
 import ListMap from "../Components/ListMap";
 import { useState } from "react";
 
 const ProductList = ({ products: initialproducts }) => {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 })
+}, []);
+
   const [products, setProducts] = useState(initialproducts);
   const insurance = initialproducts.filter((item) => item.type === "insurance");
   const investment = initialproducts.filter(
