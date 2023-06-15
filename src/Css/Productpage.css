@@ -1,5 +1,5 @@
 #productpage{
-    min-height: 100vh;
+    min-height:calc( 100vh - 7em);
 }
 
 .productpage__row{
@@ -17,14 +17,33 @@
     margin-top: 1em;
 }
 
-.productpage__subtitle{
-    color: white;
+.productpage__text{
+    line-height: 1.7em;
 }
 
 .productpage__icon--list{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.productpage__icon--list > h4{
+    margin-right: .25em;
 }
 
 .productpage__icon > button > svg {
     color: white;
 }
+
+.productpage__img--wrapper{
+    margin: 0 auto;
+    width: 15em;
+    border-radius: .5em;
+    aspect-ratio: 1.5 / 1;
+}
+
+.productpage__img{
+    object-fit: cover;
+}
+

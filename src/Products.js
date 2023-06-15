@@ -3,8 +3,8 @@ import transamerica from "./Assets/transamerica.png";
 export const products = [
   {
     id: 1,
-    name: "name test1",
-    type: "insurance",
+    name: "Index Universal Life",
+    type: "Insurance",
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis lectus vestibulum, accumsan purus nec, tempor sem. Cras vulputate massa vel porttitor tempus. Nulla facilisi. Nunc tristique id nisl sed scelerisque. Nunc vitae est convallis, pharetra risus accumsan, suscipit nibh. Ut vel diam rhoncus, hendrerit.",
     img: transamerica,
   },

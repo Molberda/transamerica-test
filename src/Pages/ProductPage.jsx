@@ -5,7 +5,7 @@ import { IconButton } from "@mui/material";
 import { Mail, PictureAsPdf } from "@mui/icons-material";
 
 const ProductPage = ({ products }) => {
-    
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
   }, []);
@@ -20,8 +20,9 @@ const ProductPage = ({ products }) => {
           <h2 className="productpage__title">{product.name}</h2>
           <div className="productpage__organizer">
             <h4 className="productpage__subtitle">{product.type}</h4>
-            <p className="productpage__text">{product.info}</p>
+            <p className="productpage__text">{product.info}</p>         
             <ul className="productpage__icon--list">
+            <h4>Extra information:</h4>
               <li className="productpage__icon">
                 <IconButton>
                   <PictureAsPdf />
@@ -33,6 +34,9 @@ const ProductPage = ({ products }) => {
                 </IconButton>
               </li>
             </ul>
+            <figure className="productpage__img--wrapper">
+                <img src={product.img} alt="" className="productpage__img" />
+            </figure>
           </div>
         </div>
       </div>
