@@ -8,6 +8,7 @@ import ProductList from './Pages/ProductList';
 import ProductPage from './Pages/ProductPage';
 import Footer from './Components/Footer';
 import Burger from './Components/Burger';
+import './Css/Queries.css'
 
 function App() {
   return (
