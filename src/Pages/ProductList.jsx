@@ -35,7 +35,7 @@ const ProductList = ({ products: initialproducts }) => {
     <section id="productlist">
       <div className="container productlist__container top__section">
         <div className="row productlist__row">
-          <h1 className="productlist__title">All Our Products</h1>
+          <h1 className="productlist__title section__title">All Our Products</h1>
           <select
             id="filter"
             defaultValue="ALL"

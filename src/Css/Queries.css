@@ -53,6 +53,18 @@
   }
 
   .review {
-    max-width: 30%;
+    max-width: 35%;
   }
+
+  .productlist__organizer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .productlist__item{
+    width: 49%;
+  }
+
+
 }

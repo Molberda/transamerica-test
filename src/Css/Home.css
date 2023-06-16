@@ -149,10 +149,6 @@
   border-radius: .5em;
 }
 
-.review__organizer{
-  /* max-width: calc(100% - 5em); */
-}
-
 .review__name,
 .review__description{
   margin-left: .2em;

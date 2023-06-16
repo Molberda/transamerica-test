@@ -6,7 +6,7 @@ import profile from '../Assets/profile.jpg'
 const InfoContainer = () => {
   return (
     <div className="info__container">
-      <h2 className="info__title">Hello! <br /> My name is <span className="highlight">Marcel</span></h2>
+      <h1 className="info__title section__title">Hello! <br /> My name is <span className="highlight">Marcel</span></h1>
       <figure className="info__img--wrapper">
         <img src={profile} alt="" className="info__img" />
       </figure>

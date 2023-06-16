@@ -1,5 +1,5 @@
 #productlist{
-    min-height: 100vh;
+    min-height:calc( 100vh - 7em);
 }
 
 .productlist__row{
