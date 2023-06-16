@@ -9,12 +9,13 @@ const Nav = () => {
     function openMenu(){
         document.querySelector('body').classList.toggle('menuOpen')
     }
+
     return (
         <nav>
             <figure className='nav__logo--wrapper'>
                 <img src={logo} alt="" />
             </figure>
-            <IconButton onClick={openMenu}>
+            <IconButton onMouseEnter={openMenu} onClick={openMenu}>
                 <Menu/>
             </IconButton>
         </nav>
