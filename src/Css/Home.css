@@ -82,6 +82,8 @@
 
 .product__row {
   padding-top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .product__organizer {
@@ -120,10 +122,14 @@
   transition: all 300ms ease;
 }
 
-.product__organizer > a > button {
+.product__row > a {
+  margin: 1em auto 0;
+}
+
+.product__row > a > button {
   background-color: #d92546;
 }
-.product__organizer > a > button:hover {
+.product__row > a > button:hover {
   background-color: #b11f3a;
 }
 
@@ -143,9 +149,14 @@
   border-radius: .5em;
 }
 
+.review__organizer{
+  /* max-width: calc(100% - 5em); */
+}
+
 .review__name,
 .review__description{
   margin-left: .2em;
+  text-align: justify;
 }
 
 .rating > svg{

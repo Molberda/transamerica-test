@@ -9,9 +9,9 @@ const ReviewMap = ({ item }) => {
         <Rating rating={item.rating} />
         <p className="review__description">{item.description}</p>
       </div>
-      <figure className="review__img--wrapper">
+      {/* <figure className="review__img--wrapper">
         <img src={item.img} alt="" className="review__img" />
-      </figure>
+      </figure> */}
     </div>
   );
 };

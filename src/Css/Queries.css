@@ -1,36 +1,58 @@
-@media only screen and (min-width: 600px){
-    #root{
-        font-size: 18px;
-    }
+@media only screen and (min-width: 600px) {
+  #root {
+    font-size: 18px;
+  }
 
-    .row{
-        max-width: 80%;
-    }
+  .row {
+    max-width: 80%;
+  }
 
-    .nav__logo--wrapper{
-        width: 2.5em;
-    }
+  .nav__logo--wrapper {
+    width: 2.5em;
+  }
 
-    nav > button {
-        width: 2em;
-    }
+  nav > button {
+    width: 2em;
+  }
 
-    .landing__row{
-        gap: 3.5em;
-    }
+  .landing__row {
+    gap: 3.5em;
+  }
 
-    .info__img--wrapper{
-        width: 9em;
-    }
-    .info__img{
-        transform: translateY(2.45em);
-    }
+  .info__img--wrapper {
+    width: 9em;
+  }
+  .info__img {
+    transform: translateY(2.45em);
+  }
 
-    .info__list{
-        scale: 1.3;
-    }
+  .info__list {
+    scale: 1.3;
+  }
 
-    .about__text{
-        font-size: 1.1em;
-    }
+  .about__text {
+    font-size: 1.1em;
+  }
+
+  .product__organizer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 45%;
+  }
+
+  .product__row > a > button > h3 {
+    font-size: 1.3em;
+  }
+
+  .reviews__organizer{
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .review {
+    max-width: 30%;
+  }
 }

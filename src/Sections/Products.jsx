@@ -10,15 +10,15 @@ const Products = ({ products }) => {
         <div className="row product__row">
           <h1 className="section__title products__title">Our Best Sellers!</h1>
           <div className="product__organizer">
-            {products.slice(0,3).map((item) => (
+            {products.slice(0,4).map((item) => (
               <ProductMap products={products} item={item} key={item.id} />
             ))}
+          </div>
             <Link to='/productlist'>
               <Button>
                 <h3>View More</h3>
               </Button>
             </Link>
-          </div>
         </div>
       </div>
     </section>
