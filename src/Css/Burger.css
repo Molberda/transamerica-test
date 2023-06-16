@@ -39,7 +39,11 @@
 
 .burger__list--item > button {
   color: white;
-  padding: 0 1.5em;
+  padding: 1em 1em;
+}
+
+.burger__list--item > button:hover {
+  background-color: #283236;
 }
 
 .burger__list--item > button > h2{

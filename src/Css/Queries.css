@@ -20,7 +20,7 @@
   }
 
   .burger__list--item > button{
-    padding: 0 3em
+    padding: 1em 3em
   }
 
   .landing__row {
@@ -89,6 +89,10 @@
 }
 
 @media only screen and (min-width: 1150px){
+
+    .burger__list--item > button {
+        padding: 1em 5em;
+      }
 
     .product__organizer{
         gap: 1.5em;
