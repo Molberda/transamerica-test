@@ -94,6 +94,10 @@
   gap: 1em;
 }
 
+.product{
+  max-width: 390px;
+}
+
 .product__wrapper {
   position: relative;
   border-radius: 1em;

@@ -48,7 +48,8 @@
   }
 
   .product {
-    width: 45%;
+    width: calc((100% - 1em)/2);
+    /* width: 45%; */
   }
 
   .product__row > a > button > h3 {
@@ -97,12 +98,18 @@
     .product__organizer{
         gap: 1.5em;
     }
-    
-    .product{
-        max-width: 390px;
-    }
 
     .productpage__img--wrapper{
         width: 27em;
+    }
+}
+
+@media only screen and (min-width: 1550px){
+
+    .product__organizer{
+        gap: 1em;
+    }
+    .product{
+        width: calc((100% - 3em)/4);
     }
 }
