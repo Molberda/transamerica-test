@@ -15,7 +15,7 @@ const Nav = () => {
             <figure className='nav__logo--wrapper'>
                 <img src={logo} alt="" />
             </figure>
-            <IconButton onMouseEnter={openMenu} onClick={openMenu}>
+            <IconButton onClick={openMenu}>
                 <Menu/>
             </IconButton>
         </nav>
