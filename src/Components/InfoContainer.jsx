@@ -1,4 +1,4 @@
-import { Mail } from "@mui/icons-material";
+import { LinkedIn, Mail, PictureAsPdf, WhatsApp } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 import profile from '../Assets/profile.jpg'
@@ -13,7 +13,7 @@ const InfoContainer = () => {
       <ul className="info__list">
         <li className="info__list--item">
             <IconButton>
-                <Mail/>
+                <WhatsApp/>
             </IconButton>
         </li>
         <li className="info__list--item">
@@ -23,12 +23,12 @@ const InfoContainer = () => {
         </li>
         <li className="info__list--item">
             <IconButton>
-                <Mail/>
+                <LinkedIn/>
             </IconButton>
         </li>
         <li className="info__list--item">
             <IconButton>
-                <Mail/>
+                <PictureAsPdf/>
             </IconButton>
         </li>
       </ul>
