@@ -12,6 +12,13 @@
     gap: 0;
   }
 }
+
+@media only screen and (min-width: 600px) and (orientation: portrait) {
+  .top__section{
+    padding-top: 9em;
+  }
+}
+
   @media only screen and (min-width: 600px) {
   #root {
     font-size: 18px;
