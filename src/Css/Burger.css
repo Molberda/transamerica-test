@@ -46,6 +46,6 @@
   background-color: #283236;
 }
 
-.burger__list--item > button > h2{
-  font-size: 1.3em;
+.burger__list--item > button > a > h2{
+  font-size: 1.5em;
 }

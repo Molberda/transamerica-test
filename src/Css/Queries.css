@@ -1,9 +1,8 @@
 @media only screen and (max-height: 750px) {
-
-  #root{
+  #root {
     font-size: 15px;
   }
-  .landing__row{
+  .landing__row {
     gap: 2em;
     padding: 2em 1em;
   }
@@ -13,14 +12,16 @@
   }
 }
 
-@media only screen and (min-height: 1000px) and (orientation: portrait) {
-  .top__section{
-    font-size: 19px;
-    padding-top: 9em;
+@media only screen and (max-width: 380px) {
+  .burger__list--item > button {
+    padding: 1.5em 1em;
+  }
+
+  .burger__list--item > button > a > h2 {
+    font-size: 1.2em;
   }
 }
-
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   #root {
     font-size: 18px;
   }
@@ -43,6 +44,10 @@
 
   .burger__list--item > button {
     padding: 1.3em 3em;
+  }
+
+  .burger__list--item > button > a > h2 {
+    font-size: 1.5em;
   }
 
   .landing__row {
@@ -96,7 +101,7 @@
     width: calc((100% - 1em) / 2);
   }
 
-  .productlist__name{
+  .productlist__name {
     font-size: 1.1em;
   }
 
@@ -126,7 +131,7 @@
     gap: 1.5em;
   }
 
-  .productlist__name{
+  .productlist__name {
     font-size: 1.3em;
   }
 
@@ -148,33 +153,39 @@
   }
 }
 
-@media only screen and (min-height: 1200px) and (orientation: portrait) {
+@media only screen and (min-height: 1000px) and (orientation: portrait) {
+  .top__section {
+    font-size: 19px;
+    padding-top: 9em;
+  }
+}
 
-  #root{
+@media only screen and (min-height: 1200px) and (orientation: portrait) {
+  #root {
     font-size: 22px;
   }
 
-  .burger__list--item > button{
-    padding: 1.8em 3em ;
+  .burger__list--item > button {
+    padding: 1.8em 3em;
   }
 
-  .top__section{
+  .top__section {
     font-size: 1em;
   }
 
-  .landing__row{
+  .landing__row {
     gap: 5em;
   }
 
-  .info__list{
+  .info__list {
     scale: 1.6;
   }
 
-  .about__container{
+  .about__container {
     gap: 4em;
   }
 
-  .product__row > a > button > h3{
+  .product__row > a > button > h3 {
     font-size: 1.8em;
   }
 }
