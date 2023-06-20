@@ -15,6 +15,7 @@
 
 @media only screen and (min-height: 1000px) and (orientation: portrait) {
   .top__section{
+    font-size: 19px;
     padding-top: 9em;
   }
 }
@@ -144,5 +145,28 @@
   }
   .product {
     width: calc((100% - 3em) / 4);
+  }
+}
+
+@media only screen and (min-height: 1200px) and (orientation: portrait) {
+
+  #root{
+    font-size: 22px;
+  }
+
+  .burger__list--item > button{
+    padding: 1.8em 3em ;
+  }
+
+  .top__section{
+    font-size: 1em;
+  }
+
+  .landing__row{
+    gap: 5em;
+  }
+
+  .about__container{
+    gap: 4em;
   }
 }
