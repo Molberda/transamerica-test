@@ -49,7 +49,6 @@
 
   .product {
     width: calc((100% - 1em) / 2);
-    /* width: 45%; */
   }
 
   .product__row > a > button > h3 {
@@ -68,11 +67,15 @@
   .productlist__organizer {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .productlist__item {
-    width: 49%;
+    width: calc((100% - 1em) / 2);
+  }
+
+  .productlist__name{
+    font-size: 1.1em;
   }
 
   .productpage__subtitle {
@@ -99,6 +102,10 @@
 
   .product__organizer {
     gap: 1.5em;
+  }
+
+  .productlist__name{
+    font-size: 1.3em;
   }
 
   .productpage__img--wrapper {
