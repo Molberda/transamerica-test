@@ -36,7 +36,7 @@ const Burger = () => {
             </li>
             <li className="burger__list--item">
               <Button onClick={close}>
-                <Link to="https://www.worldfinancialgroup.com" target="_blank">
+                <Link to="https://www.worldfinancialgroup.com" target="_blank" rel='noreferrer'>
                   <h2>More Info</h2>
                 </Link>
               </Button>
