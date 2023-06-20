@@ -65,7 +65,7 @@
 }
 
 .about__container > svg {
-  margin-top: 1em;
+  margin-top: .5em;
   color: white;
   scale: 2.5;
   animation: scrolld 2.5s infinite alternate-reverse;
