@@ -166,7 +166,15 @@
     gap: 5em;
   }
 
+  .info__list{
+    scale: 1.6;
+  }
+
   .about__container{
     gap: 4em;
+  }
+
+  .product__row > a > button > h3{
+    font-size: 1.8em;
   }
 }
