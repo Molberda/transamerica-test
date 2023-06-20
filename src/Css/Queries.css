@@ -14,11 +14,11 @@
 
 @media only screen and (max-width: 380px) {
   .burger__list--item > button {
-    padding: 1.5em 1em;
+    padding: 1.3em 1em;
   }
 
   .burger__list--item > button > a > h2 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 @media only screen and (min-width: 600px) {
