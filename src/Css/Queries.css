@@ -93,6 +93,10 @@
     padding: 1.3em 5em;
   }
 
+  .about__container > svg {
+    margin-top: 3em;
+  }
+
   .product__organizer {
     gap: 1.5em;
   }
