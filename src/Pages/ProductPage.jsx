@@ -31,9 +31,11 @@ const ProductPage = ({ products }) => {
                 </a>
               </li>
               <li className="productpage__icon">
-                <IconButton>
-                  <Mail />
-                </IconButton>
+                <a href='mailto:macias.marcel@gmail.com' target="_blank" rel="noreferrer">
+                  <IconButton>
+                    <Mail />
+                  </IconButton>
+                </a>
               </li>
             </ul>
             <figure className="productpage__img--wrapper">
