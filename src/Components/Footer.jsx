@@ -15,7 +15,7 @@ const Footer = () => {
           </Link>
           <ul className="footer__list">
             <li className="footer__list--item">
-              <Link to='/products'>Products</Link>
+              <Link to='/productlist'>Products</Link>
               <div className="hover__effect"></div>
             </li>
             <li className="footer__list--item">
